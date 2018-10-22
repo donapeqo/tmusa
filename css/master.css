@@ -134,6 +134,7 @@ body{
 .panel-heading h3 {
     color: #fff;
     font-size: 2em;
+    font-family: Fjalla One;
     text-align: center;
     background-color: #2c3e50;
     border-color: #2c3e50;
@@ -175,8 +176,8 @@ body{
 
 #about .content h2 {
   color: #0c2e8a;
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 600;
+  font-size: 28px;
   font-family: "Raleway", sans-serif;
 }
 
@@ -285,10 +286,28 @@ body{
   }
 }
 
+.title_services {
+  padding-bottom: 10px;
+}
+
+.title_services h3 {
+  font-family: Righteous;
+  font-size: 2em;
+  /* padding-bottom: 10px; */
+}
+
 .service_imgs img {
-  width: 40%;
+  max-width: 100%;
   height: auto;
-  position: absolute;
-  right: 10px;
-  z-index: -1;
+  /* padding-left: 150px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  padding-bottom: 30px;
+  border-radius: 30%;
+  /* image-rendering: pixelated; */
+  /* object-fit: cover; */
+  /* object-position: right top; */
+  /* z-index: -1; */
 }

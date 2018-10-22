@@ -18,6 +18,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Acme|Crete+Round:400,400i|Fjalla+One|Lobster|Monoton|Righteous|Six+Caps" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -53,6 +54,9 @@
             <a class="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#connections">Connections</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
@@ -77,7 +81,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h1 class="text-uppercase">
+          <h1 class="text-uppercase" style="font-family:Monoton">
               <strong>Advancement of Global Telecommunication</strong>
             </h1>
           <hr>
@@ -102,7 +106,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="container form-top">
       <div class="row">
-        <!-- <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12"> -->
+        <!-- <div class="col-md-6 col-md-offset-3 col-sm-8 col-xs-12"> -->
         <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="mx-auto">Inquiry Form</h3>
@@ -141,7 +145,7 @@
 
   <!-- Use any element to open the sidenav -->
   <div id="mainSidenav">
-    <p id="inqForm" onclick="openNav()">Form <i style="font-size:1.4em" class="fas fa-hands-helping"></i></p>
+    <p id="inqForm" style="font-family:Lobster; font-size:1.5em" onclick="openNav()">Form <i style="font-size:1.4em;" class="fas fa-hands-helping"></i></p>
     <!-- <a href="#" id="about">About</a> -->
   </div>
   <!-- <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776;
@@ -159,14 +163,18 @@
 
     <section class="bg-primary" id="about">
       <div class="container">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">About Us</h2>
+          <hr class="light my-4">
+        </div>
         <div class="row">
           <div class="col-lg-6 about-img">
             <img src="images/Old_Logo_TM.png" alt="Old Logo TM">
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h2>Telekom Malaysia USA</h2>
+            <h3>The global representative of Telekom Malaysia Berhad</h3>
 
             <ul>
               <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -254,171 +262,82 @@
     </section>
 
     <!--==========================
-      Services Details
+      Each Services Details
     ============================-->
 
     <section>
       <div class="container">
         <div class="row">
-          <div class="section-header">
+          <!-- <div class="section-heading">
             <h2>Services</h2>
             <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
-          </div>
+          </div> -->
         </div>
 
-
+        <!-- Left -->
         <div class="row">
-          <div id="data_services" class="col-sm-12 service_imgs">
-              <!-- <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i> -->
-              <img src="images/2.jpg" alt="">
-              <h3 class="mb-3">Data Services</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
-            <div class="col-sm-6 service_imgs" style="background-color:lavenderblush;">
-              test
-            </div>
-
-          <div id="bh_services" class="col-sm-12 text-center">
-            <div class="col-sm-8 service-box mt-5 pr-5 text-right">
-              <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-              <h3 class="mb-3">Backhaul Services</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </div>
+          <div id="data_services" class="title_services col-sm-8 ">
+            <!-- <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i> -->
+            <h3 class="mb-3">Data Services</h3>
+            <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
           </div>
-          <div id="v_services" class="col-sm-12 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">Voice Services</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div id="i_services" class="col-sm-12 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Access Services</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
-          <div id="a_services" class="col-sm-12 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-              <h3 class="mb-3">Infra Services</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div id="b_services" class="col-sm-12 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-              <h3 class="mb-3">Beyond Connectivity</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s1.jpg" alt="Data Services">
           </div>
 
+
+          <!-- Right -->
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s2.jpg" alt="Backhaul Services">
+          </div>
+          <div id="bh_services" class="title_services col-sm-8 text-left">
+            <h3 class="mb-3">Backhaul Services</h3>
+            <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+          </div>
+
+          <!-- Left -->
+          <div id="v_services" class="title_services col-sm-8">
+            <h3 class="mb-3">Voice Services</h3>
+            <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+          </div>
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s3.jpg" alt="Data Services">
+          </div>
+
+          <!-- Right -->
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s4.jpg" alt="Backhaul Services">
+          </div>
+          <div id="i_services" class="title_services col-sm-8 text-left">
+            <h3 class="mb-3">Access Services</h3>
+            <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+          </div>
+
+          <!-- Left -->
+          <div id="a_services" class="title_services col-sm-8 ">
+            <h3 class="mb-3">Infra Services</h3>
+            <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+          </div>
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s5.jpg" alt="Data Services">
+          </div>
+
+          <!-- Right -->
+          <div class="col-sm-4 service_imgs">
+            <img src="images/services/s6.jpg" alt="Backhaul Services">
+          </div>
+          <div id="b_services" class="title_services col-sm-8 text-left">
+            <h3 class="mb-3">Beyond Connectivity</h3>
+            <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+          </div>
+
+          <a class="btn btn-primary btn-xl mx-auto text-center js-scroll-trigger" href="#connections">Our Connections</a>
+          <!-- <div class="col-lg-8 mx-auto text-center"><a class="btn btn-light btn-xl js-scroll-trigger" href="#connections">Our Connections</a></div> -->
         </div>
       </div>
 
     </section>
 
-    <!--==========================
-      Maps
-    ============================-->
-
-    <!-- <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <!--==========================
       Products
@@ -431,12 +350,17 @@
       <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Our Connections</a>
     </div> -->
 
-    <section class="bg-tm">
+
+    <!--==========================
+      Maps
+    ============================-->
+
+    <section class="bg-tm" id="connections">
       <div class="container text-center">
-        <h2 class="mb-4">Our Global Presence!</h2>
+        <h2 class="mb-4 section-heading">Our Global Presence</h2>
         <hr class="light my-4">
         <p class="text-faded mb-4">We've got what you need!</p>
-        <a class="btn btn-light btn-xl sr-button" target="_#" href="http://www.tm.com.my/tmglobal/Pages/Global-Presence.aspx">Our Connections</a>
+        <a class="btn btn-light btn-xl sr-button" target="_#" href="http://www.tm.com.my/tmglobal/Pages/Global-Presence.aspx">Click Here!</a>
       </div>
     </section>
 
@@ -462,7 +386,7 @@
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-map-marked-alt fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="https://www.google.com/maps/place/Telekom+Malaysia+USA+Inc/@38.9150345,-77.2353546,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64afbc7c64c71:0x2786b7a07e6d96c4!8m2!3d38.9150303!4d-77.2331659">
+              <a target="_#" href="https://www.google.com/maps/place/Telekom+Malaysia+USA+Inc/@38.9150345,-77.2353546,17z/data=!3m1!4b1!4m5!3m4!1s0x89b64afbc7c64c71:0x2786b7a07e6d96c4!8m2!3d38.9150303!4d-77.2331659">
                 8320 Old Courthouse Rd, <br/>Room 201, <br/>Vienna, VA 22182</a>
             </p>
           </div>
@@ -475,8 +399,12 @@
         </div>
       </div>
     </section>
+  </div> <!-- End of div=main -->
 
-  </div>
+  <footer>
+    <p class="mx-auto text-center"> Copyright &copy; 2018 Telekom Malaysia USA (12-P) ALL RIGHTS RESERVED</p>
+
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
