@@ -47,8 +47,13 @@ h6 {
   background-color: #F05F40 !important;
 }
 
-.bg-dark {
-  background-color: #212529 !important;
+.bg-tm {
+  background: url("../images/tmglobalmap.png") no-repeat;
+  background-size: cover;
+}
+
+.bg-dark{
+  background-color: #143b91 !important;
 }
 
 .text-faded {
